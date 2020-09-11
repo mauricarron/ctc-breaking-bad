@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Frase from "./components/Frase";
 import styled from "@emotion/styled";
 
@@ -23,10 +23,19 @@ const Boton = styled.button`
   background-size: 300px;
   color: #ffffff;
   border: 2px solid black;
+  transition: background-size 0.8s ease;
+  &:hover {
+    cursor: pointer;
+    background-size: 400px;
+  }
 `;
 
 function App() {
   const [frase, guardarFrase] = useState({});
+
+  useEffect(() => {
+    consultarApi();
+  }, []);
 
   const consultarApi = async () => {
     const api = await fetch(
