@@ -1,8 +1,8 @@
-# [Generador de Frases de Breaking Bad]()
+# [Generador de Frases de Breaking Bad](https://mdcarron-ctc-breaking-bad.netlify.app/)
 
 ## Deploy 🔻
 
-[Generador de Frases de Breaking Bad]()
+[Generador de Frases de Breaking Bad](https://mdcarron-ctc-breaking-bad.netlify.app/)
 
 ## ⭐ Acerca del Proyecto
 
